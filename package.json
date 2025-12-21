@@ -1,0 +1,21 @@
+{
+  "name": "email-service",
+  "version": "1.0.0",
+  "description": "Serverless email service using Resend for Vercel",
+  "main": "api/send-email.ts",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "nodemailer": "^7.0.11"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.27",
+    "@types/nodemailer": "^7.0.4",
+    "@vercel/node": "^3.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  }
+}
